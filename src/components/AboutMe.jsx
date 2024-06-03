@@ -7,7 +7,8 @@ export default function AboutMe(){
             display:"flex",
             flexDirection:"column",
             justifyContent:"center",
-            alignItems:"center"
+            alignItems:"center",
+            height:"100vh"
         }}>
             <h1>About Me</h1>
             <span style={{

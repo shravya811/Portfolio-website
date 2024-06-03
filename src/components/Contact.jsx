@@ -7,14 +7,15 @@ export default function Contact(){
             display:"flex",
             flexDirection:"column",
             justifyContent:"center",
-            alignItems:"center"
+            alignItems:"center",
+            height:"100vh"
         }}>
             <h1>Contact Me</h1>
             <form>
-                Enter you Name<br/>
+                Enter you Name:<br/>
                 <input style={{
                     backgroundColor:"#C8A2C8"
-                }} type="text" placeholder="Your name:"/><br/><br/>
+                }} type="text" placeholder="Your name"/><br/><br/>
                 Type your Message here:<br/>
                 <textarea style={{
                     backgroundColor:"#C8A2C8"

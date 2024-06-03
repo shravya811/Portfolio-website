@@ -2,7 +2,13 @@ import React from "react"
 
 export default function Projects(){
     return (
-        <div id="Projects">
+        <div style={{
+            display:"flex",
+            flexDirection:"column",
+            justifyContent:"center",
+            alignItems:"center",
+            height:"100vh"
+        }} id="Projects">
             <h1>Projects</h1>
             <ol>
                 <li>
